@@ -1,0 +1,641 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Legable</title>
+    <link rel="icon" href="assets/images/icon.svg" type="image/x-icon">
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/template.css">
+    <link rel="stylesheet" href="assets/css/animated.css">
+    <link rel="stylesheet" href="assets/css/owl.css">
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="index.html" class="active">Home</a></li>
+              <li><a href="category.html">Specialties</a></li>
+              <li><a href="listing.html">Listing</a></li>
+              <li><a href="contact.html">Contact Us</a></li> 
+              <li><div class="main-white-button"><a href="#"><i class="fa fa-plus"></i> Add Your Profile</a></div></li> 
+            </ul>        
+            <a class='menu-trigger'>
+                <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="main-banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="top-text header-text">
+            <h6>Over 6,500+ Active Profiles</h6>
+            <h2>Find Lawyers That Suit Your Needs</h2>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <form id="search-form" name="gs" method="submit" role="search" action="#">
+            <div class="row">
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <select name="area" class="form-select" aria-label="Area" id="chooseCategory" onchange="this.form.click()">
+                          <option selected>All Specialties</option>
+                          <option value="Legal Aspect 1">Legal Aspect 1</option>
+                          <option value="Legal Aspect 2">Legal Aspect 2</option>
+                          <option value="Legal Aspect 3">Legal Aspect 3</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <input type="address" name="address" class="searchText" placeholder="Enter keywords" autocomplete="on" required>
+                  </fieldset>
+              </div>
+              <div class="col-lg-3 align-self-center">
+                  <fieldset>
+                      <select name="price" class="form-select" aria-label="Default select example" id="chooseCategory" onchange="this.form.click()">
+                          <option selected>Budget</option>
+                          <option value="$100 - $250">$100 - $250</option>
+                          <option value="$250 - $500">$250 - $500</option>
+                          <option value="$500 - $1000">$500 - $1,000</option>
+                          <option value="$1000+">$1,000 or more</option>
+                      </select>
+                  </fieldset>
+              </div>
+              <div class="col-lg-3">                        
+                  <fieldset>
+                      <button class="main-button"><i class="fa fa-search"></i> Search Now</button>
+                  </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-10 offset-lg-1">
+          <ul class="categories">
+            <li><a href="category.html"><span class="icon"><img src="assets/images/search-icon-01.png" alt="Accident/Personal Injury"></span> Accident/Personal Injury</a></li>
+            <li><a href="listing.html"><span class="icon"><img src="assets/images/search-icon-02.png" alt="Corporate/Commercial"></span> Corporate/Commercial</a></li>
+            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-03.png" alt="Divorce/Family Matters"></span> Divorce/Family Matters</a></li>
+            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-04.png" alt="Personal Data Protection"></span> Personal Data Protection</a></li>
+            <li><a href="#"><span class="icon"><img src="assets/images/search-icon-05.png" alt="Trusts/Wills"></span> Trusts/Wills</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="popular-categories">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Specialties</h2>
+            <h6>Check Them Out</h6>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-3">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <span class="icon"><img src="assets/images/search-icon-01.png" alt=""></span>
+                        Accidents
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-02.png" alt=""></span>
+                        Commercial
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-03.png" alt=""></span>
+                        Family Matters
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-04.png" alt=""></span>
+                        PDPA
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">                 
+                        <span class="icon"><img src="assets/images/search-icon-05.png" alt=""></span>
+                        Wills
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-lg-9 align-self-center">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>Title Here</h4>
+                                <p>Some content here</p>
+                                <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i> More Information</a></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-01.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>Title Here</h4>
+                                <p>Some content here</p>
+                                <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i> More Information</a></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-02.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>Title Here</h4>
+                                <p>Some content here</p>
+                                <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i> More Information</a></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-03.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>Title Here</h4>
+                                <p>Some content here</p>
+                                <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i> More Information</a></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-04.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-5 align-self-center">
+                              <div class="left-text">
+                                <h4>Title Here</h4>
+                                <p>Some content here</p>
+                                <div class="main-white-button"><a href="#"><i class="fa fa-eye"></i> More Information</a></div>
+                              </div>
+                            </div>
+                            <div class="col-lg-7 align-self-center">
+                              <div class="right-image">
+                                <img src="assets/images/tabs-image-05.jpg" alt="">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="recent-listing">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="section-heading">
+            <h2>Recent Profiles</h2>
+            <h6>Check Them Out</h6>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="owl-carousel owl-listing">
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-01.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-02.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-03.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-04.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-05.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-06.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-05.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-02.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-12">
+                  <div class="listing-item">
+                    <div class="left-image">
+                      <a href="#"><img src="assets/images/listing-06.jpg" alt=""></a>
+                    </div>
+                    <div class="right-content align-self-center">
+                      <a href="#"><h4>Lawyer Name</h4></a>
+                      <h6>ABC Law Corporation</h6>
+                      <ul class="rate">
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li><i class="fa fa-star-o"></i></li>
+                        <li>(18) Reviews</li>
+                      </ul>
+                      <span class="price"><div class="icon"><img src="assets/images/listing-icon-01.png" alt=""></div> $150 / consultation</span>
+                      <span class="details">Details: <em>Speciality</em></span>
+                      <ul class="info">
+                        <li><img src="assets/images/listing-icon-02.png" alt=""> x years experience</li>
+                        <li><img src="assets/images/listing-icon-03.png" alt=""> Walk-in/Booking</li>
+                      </ul>
+                      <div class="main-white-button">
+                        <a href="contact.html"><i class="fa fa-eye"></i> Contact Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="about">
+            <div class="logo">
+              <img src="assets/images/legable.png" alt="Plot Listing">
+            </div>
+            <p>Some description here maybeeee</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="helpful-links">
+            <h4>Helpful Links</h4>
+            <div class="row">
+              <div class="col-lg-6 col-sm-6">
+                <ul>
+                  <li><a href="#">Specialties</a></li>
+                  <li><a href="#">Reviews</a></li>
+                  <li><a href="#">Profiles</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">More Info</a></li>
+                  <li><a href="#">Useful Sites</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="contact-us">
+            <h4>Contact Us</h4>
+            <p>maybe a team email LAWL</p>
+            <div class="row">
+              <div class="col-lg-6">
+                <a href="#">phone number hereee</a>
+              </div>
+              <div class="col-lg-6">
+                <a href="#">another phone number/email</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="sub-footer">
+            <p>Copyright © 2021 Legable. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/owl-carousel.js"></script>
+  <script src="assets/js/animation.js"></script>
+  <script src="assets/js/imagesloaded.js"></script>
+  <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>
