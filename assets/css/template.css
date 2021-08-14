@@ -269,16 +269,18 @@ header
 
 .header-area .main-nav a.logo {
   background-image: url(../images/legable-white.png);
-  width: 164px;
-  height: 58px;
+  width: 328px;
+  height: 60px;
+  background-size: 328px 60px;
   display: inline-block;
   margin-top: 20px;
 }
 
 .background-header .main-nav a.logo {
   background-image: url(../images/legable.png);
-  width: 164px;
-  height: 58px;
+  width: 328px;
+  height: 60px;
+  background-size: 328px 60px;
   display: inline-block;
   margin-top: 10px;
 }
