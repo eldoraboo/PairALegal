@@ -773,7 +773,7 @@ def error(update, context):
 
 def main():
     # Create the Updater and pass it your bot's token.
-    updater = Updater('1852161326:AAGcNaUq8kcd9dMT4YPosIOEK2oI6qDQgrY', use_context=True)
+    updater = Updater('ENTER_TOKEN_HERE', use_context=True)
 
     # Get the dispatcher to register handlers
     dp = updater.dispatcher
