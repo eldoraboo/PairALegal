@@ -65,7 +65,7 @@ We conducted a system test with 8 users, 7 of whom indicated that the prompts gi
 
 We hope that through our solution, prospective clients can be matched with the most suitable legal experts available for them, while considering key aspects such as affordability and convenience as well.
 
-![GitHub](https://img.shields.io/github/license/eldoraboo/PairALegal?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/eldoraboo/PairALegal?style=for-the-badge) ![GitHub pull requests](https://img.shields.io/github/issues-pr/PairALegal/auto-labeling?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/PairALegal/auto-labeling?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/no/2022?style=for-the-badge)
+![GitHub](https://img.shields.io/github/license/eldoraboo/PairALegal?style=for-the-badge) ![GitHub issues](https://img.shields.io/github/issues/eldoraboo/PairALegal?style=for-the-badge) ![GitHub pull requests](https://img.shields.io/github/issues-pr/eldoraboo/PairALegal?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/eldoraboo/PairALegal?style=for-the-badge) ![Maintenance](https://img.shields.io/maintenance/no/2022?style=for-the-badge)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
