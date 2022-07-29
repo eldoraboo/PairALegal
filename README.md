@@ -12,10 +12,10 @@
   <p align="center">
     Built with HTML, CSS, JavaScript & Python
     <br />
-    <a href="https://github.com/eldoraboo/PairALegal"><strong>Explore the docs »</strong></a>
+    <a href="https://devpost.com/software/pair-a-legal"><strong>View it on Devpost »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/eldoraboo/PairALegal">View Demo</a>
+    <a href="https://eldoraboo.github.io/PairALegal/">View Demo</a>
     ·
     <a href="https://github.com/eldoraboo/PairALegal/issues">Report Bug</a>
     ·
