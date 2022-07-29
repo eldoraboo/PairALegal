@@ -3,9 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/eldoraboo/PairALegal">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
+  <a href="https://github.com/eldoraboo/PairALegal"></a>
 
 <h3 align="center">PairALegal Website & Telegram Bot</h3>
 
