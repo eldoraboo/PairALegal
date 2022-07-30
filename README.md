@@ -138,13 +138,13 @@ Project Link: [https://github.com/eldoraboo/PairALegal](https://github.com/eldor
 
 
 <!-- ACKNOWLEDGEMENTS -->
-## :toolbox: Acknowledgements
+
+## :toolbox: Contributors
 
 <!-- * [text](link) -->
 
-<a href="https://github.com/eldoraboo/PairALegal/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=eldoraboo/PairALegal" />
-</a>
+<a href="https://github.com/eldoraboo"><img src="https://avatars.githubusercontent.com/u/70307313?v=4" title="eldoraboo" width="80" height="80"></a>
+<a href="https://github.com/agnhannah"><img src="https://avatars.githubusercontent.com/u/72562309?v=4" title="agnhannah" width="80" height="80"></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
