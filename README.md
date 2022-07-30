@@ -145,7 +145,8 @@ Project Link: [https://github.com/eldoraboo/PairALegal](https://github.com/eldor
 
 <a href="https://github.com/eldoraboo"><img src="https://avatars.githubusercontent.com/u/70307313?v=4" title="eldoraboo" width="80" height="80"></a>
 <a href="https://github.com/agnhannah"><img src="https://avatars.githubusercontent.com/u/72562309?v=4" title="agnhannah" width="80" height="80"></a>
-<a href="https://github.com/xlasagna99"><img src="https://avatars.githubusercontent.com/u/93477013?v=4" title="agnhannah" width="80" height="80"></a>
+<a href="https://github.com/xlasagna99"><img src="https://avatars.githubusercontent.com/u/93477013?v=4" title="xlasagna99" width="80" height="80"></a>
+<a href="https://github.com/harrychangjr"><img src="https://avatars.githubusercontent.com/u/71932325?v=4" title="harrychangjr" width="80" height="80"></a>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
