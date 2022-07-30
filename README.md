@@ -142,6 +142,8 @@ Project Link: [https://github.com/eldoraboo/PairALegal](https://github.com/eldor
 
 <!-- * [text](link) -->
 
+<img src = "https://contrib.rocks/image?repo=eldoraboo/PairALegal"/>
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
